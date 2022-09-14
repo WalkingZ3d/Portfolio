@@ -28,4 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # Portfolio
 Welcome to my portfolio. 
-This webiste, built using Angular, shhows some of the projects I have made or contributed to.
+This website, built using Angular, shhows some of the projects I have made or contributed to.
