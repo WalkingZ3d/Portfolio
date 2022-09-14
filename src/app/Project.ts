@@ -7,6 +7,7 @@ export interface Project {
     summary?: string;
     description?: String;
     picture?: string;
+    stamp?: string;
     framework?: string;
     screenshot1?: string;
     screenshot1Description?: string;

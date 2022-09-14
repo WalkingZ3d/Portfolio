@@ -3,6 +3,7 @@
     font-family: 'Roboto Mono', monospace !important;
     background-color: #99a3a9;
     color: #000;
+    height: 100%;
 }
 
 .card-title {
@@ -32,8 +33,17 @@ button {
     button {
         margin-bottom: 10px;
     }
+    #stamp {
+        width: 40% !important;
+        height: 85% !important;
+    }
 }
 
 #liveBtn {
     padding-left: 0px;
+}
+
+#stamp {
+    width: 75%;
+    height: 100%;
 }
