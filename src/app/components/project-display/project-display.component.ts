@@ -19,6 +19,10 @@ export class ProjectDisplayComponent implements OnInit {
     console.log('the project: ', this.projects[parseInt(idNum)])
     this.projectChosen = this.projects[parseInt(idNum)]
     console.log('chosen: ', this.projectChosen)
+    if (!this.projectChosen) {
+      console.log('nope')
+      
+    }
   }
 
 }
