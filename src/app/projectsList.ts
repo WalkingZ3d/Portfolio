@@ -51,7 +51,7 @@ export const PROJECTS: Project[] = [
     {
         id: 2,
         title: 'GitHub Tracker',
-        url: 'https://green-github-tracker.netlify.app/',
+        url: 'https://dan-react-github-search.netlify.app/',
         GitHub: 'https://github.com/WalkingZ3d/github-tracker',
         summary: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae enim cum similique voluptas nulla? Repellat autem, incidunt magni culpa non illo, soluta quidem fugit voluptas doloremque necessitatibus at optio. Ab',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae enim cum similique voluptas nulla? Repellat autem, incidunt magni culpa non illo, soluta quidem fugit voluptas doloremque necessitatibus at optio. Ab.',

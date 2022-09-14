@@ -7,7 +7,6 @@
 }
 
 .card-title {
-    font-weight: bold;
     font-family: 'Roboto Mono', monospace !important;
 }
 
@@ -46,4 +45,12 @@ button {
 #stamp {
     width: 75%;
     height: 100%;
+}
+
+#projectTitle {
+    font-weight: bold;
+}
+
+#projectSummary {
+    font-weight: normal;
 }
