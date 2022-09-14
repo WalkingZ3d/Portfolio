@@ -12,8 +12,4 @@ export class OverlayComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  getDiv() {
-    this.router.navigate(['/'], { fragment: 'section3' });
-  }
 }

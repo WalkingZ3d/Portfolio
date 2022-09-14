@@ -1,0 +1,18 @@
+#pageBody {
+    font-family: 'Roboto Mono', monospace !important;
+    color: #000;    
+}
+
+#title404 {
+    margin-top: 10px;
+}
+
+span {
+    font-weight: bold;
+    color: #56aebd;
+}
+
+#titleRow {
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
+}

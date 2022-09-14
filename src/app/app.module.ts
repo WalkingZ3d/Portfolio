@@ -11,12 +11,14 @@ import { AboutComponent } from './components/about/about.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ProjectItemComponent } from './components/project-item/project-item.component';
 import { ProjectDisplayComponent } from './components/project-display/project-display.component';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 const appRoutes: Routes = [
   {path: '', component: OverlayComponent},
   {path: 'about', component: AboutComponent},
   {path: 'projects', component: ProjectsComponent},
-  {path: 'projects/:id', component: ProjectDisplayComponent}
+  {path: 'projects/:id', component: ProjectDisplayComponent},
+  { path: '**', pathMatch: 'full',  component: PageNotFoundComponent },
 ]
 
 @NgModule({
@@ -29,7 +31,8 @@ const appRoutes: Routes = [
     AboutComponent,
     ProjectsComponent,
     ProjectItemComponent,
-    ProjectDisplayComponent
+    ProjectDisplayComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(appRoutes)

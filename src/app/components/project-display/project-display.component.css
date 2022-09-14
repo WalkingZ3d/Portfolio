@@ -63,6 +63,22 @@
         width: 100%;
         height: 100%;
     }
+    #frameworkLogo {
+        margin-top: 10px;
+    }
+    #imagesColR {
+        padding-bottom: 1%;
+        padding-top: 1%;
+        padding-right: 2% !important;
+        padding-left: 2% !important;
+    }
+    
+    #imagesColL {
+        padding-bottom: 1%;
+        padding-top: 1%;
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+    }
 }
 
 #descriptionDiv {
@@ -109,4 +125,16 @@ a {
 #imagesCol {
     padding-bottom: 1%;
     padding-top: 1%;
+}
+
+#imagesColR {
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-right: 7%;
+}
+
+#imagesColL {
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 7%;
 }
