@@ -14,14 +14,10 @@ export class ProjectDisplayComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log('the id: ', window.location.href.split('/')[4]);
     const idNum = window.location.href.split('/')[4];
-    console.log('the project: ', this.projects[parseInt(idNum)])
     this.projectChosen = this.projects[parseInt(idNum)]
-    console.log('chosen: ', this.projectChosen)
     if (!this.projectChosen) {
-      console.log('nope')
-      
+      window.location.assign('/404');
     }
   }
 
