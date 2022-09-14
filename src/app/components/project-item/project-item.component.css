@@ -33,3 +33,7 @@ button {
         margin-bottom: 10px;
     }
 }
+
+#liveBtn {
+    padding-left: 0px;
+}
