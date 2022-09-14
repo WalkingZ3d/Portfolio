@@ -1,0 +1,29 @@
+.card {
+    margin: 2% 10%;
+    font-family: 'Roboto Mono', monospace !important;
+    background-color: #99a3a9;
+    color: #000;
+}
+
+.card-title {
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace !important;
+}
+
+a {
+    border-radius: 12px;
+    padding: 5px;
+    border: none;
+    color: #000;
+    background-color: #f6a751;
+    text-decoration: none;
+}
+
+
+button {
+    border-radius: 12px;
+    padding: 5px;
+    border: none;
+    color: #000;
+    background-color: #f6a751;
+}

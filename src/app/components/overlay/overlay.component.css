@@ -1,0 +1,26 @@
+#header {
+    /* background-image: url(../../../assets/images/coding6.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; */
+    font-family: 'Roboto Mono', monospace !important;
+    color: #fff;
+    margin-bottom: 20px;
+    background-color: #58595b;
+}
+
+.titleHeader {
+    color: #56aebd;
+    font-weight: bold
+}
+
+.text-left{
+    margin-top: 80px;
+    margin-bottom: 80px
+}
+
+#overlayImg {
+    width: 80%;
+    height: 80%;
+    margin-top: 4.5%;
+}

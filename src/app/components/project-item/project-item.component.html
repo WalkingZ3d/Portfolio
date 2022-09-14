@@ -1,0 +1,28 @@
+<div class="col mb-3">
+<div class="card h-100">
+
+    <div class="view overlay">
+      <img class="card-img-top" src="{{project.picture}}"
+        alt="screenshot">
+     
+    </div>
+
+    <div class="card-body">
+
+      <h4 class="card-title">{{project.title}}</h4>
+      
+      <p class="card-text">{{project.summary}}</p>
+      <br>
+      <div class="row text-center">
+        <div class="col-sm-6">
+            <button [routerLink]="['/projects', project.id]">See More</button>
+        </div>
+        <div class="col-sm-6">            
+            <button><a href="{{project.url}}" target="_blank">Live Project</a></button>
+        </div>
+      </div>
+    
+    </div>
+
+  </div>
+</div>

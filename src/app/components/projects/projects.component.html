@@ -1,0 +1,12 @@
+
+<div class="row text-center">
+    <div class="col-sm-12"><h2 id="projectTitle">Projects</h2></div>
+  </div>
+
+
+<div class="projectsDiv">
+    <div class="row row-cols-1 row-cols-md-3">
+        <app-project-item *ngFor="let project of projects" [project]="project">
+        </app-project-item>
+    </div>
+</div>

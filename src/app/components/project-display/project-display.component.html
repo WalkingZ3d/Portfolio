@@ -1,0 +1,102 @@
+<div id="pageBody">
+<div class="row display d-flex">
+    <div class="col-sm-2 text-center justify-content-center align-self-center" id="titleRow">
+        <img src="{{projectChosen.framework}}" alt="framework-logo" id="frameworkLogo">
+    </div>
+    <div class="col-sm-10" id="titleRow">
+        <h1 id="projectDisplayTitle">{{projectChosen.title}}</h1> 
+    </div>
+  </div>
+
+<div class="container" id="descriptionDiv">
+    <div class="row text-center">
+        <div class="col-sm-12">
+            {{projectChosen.description}}
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row text-center" id="linksRow">
+        <div class="col-sm-6">
+            <button id="externalLinksBtn"><a href="{{projectChosen.url}}" target="_blank">Live Site</a></button>
+        </div>
+        <div class="col-sm-6">
+            <button id="externalLinksBtn"><a href="{{projectChosen.GitHub}}" target="_blank">GitHub</a></button> 
+        </div>
+    </div>
+</div>
+
+
+
+<div class="pillsContainer" style="margin: 30px;">
+    
+    <div class="row text-center" id="linksRow">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-images-tab" data-toggle="pill" href="#pills-images" role="tab"
+                aria-controls="pills-images" aria-selected="true">Images</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-code-tab" data-toggle="pill" href="#pills-code" role="tab"
+                aria-controls="pills-code" aria-selected="false">Code Extracts</a>
+            </li>
+          </ul>
+          <div class="tab-content pt-2 pl-1" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-images" role="tabpanel" aria-labelledby="pills-images-tab">
+                <div class="row text-center d-flex" id="screenshotRow">
+                    <div class="col-sm-6" id="imagesCol">
+                        <img src="{{projectChosen.screenshot1}}" alt="" id="projectImg"> 
+                    </div>
+                    <div class="col-sm-6 justify-content-center align-self-center" id="imagesCol">
+                        {{projectChosen.screenshot1Description}}
+                    </div>
+                </div>
+                <div class="row text-center" id="screenshotRow2">
+                    <div class="col-sm-6 justify-content-center align-self-center" id="imagesCol">
+                        {{projectChosen.screenshot2Description}}
+                    </div>
+                    <div class="col-sm-6" id="imagesCol">
+                        <img src="{{projectChosen.screenshot2}}" alt="" id="projectImg"> 
+                    </div>
+                </div>
+                <div class="row text-center" id="screenshotRow">
+                    <div class="col-sm-6" id="imagesCol">
+                        <img src="{{projectChosen.screenshot3}}" alt="" id="projectImg"> 
+                    </div>
+                    <div class="col-sm-6 justify-content-center align-self-center" id="imagesCol">
+                        {{projectChosen.screenshot3Description}}
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-code" role="tabpanel" aria-labelledby="pills-code-tab">
+                <div class="row text-center d-flex" id="screenshotRow">
+                    <div class="col-sm-6 justify-content-center align-self-center" id="imagesCol">
+                        {{projectChosen.code1Description}}
+                    </div>
+                    <div class="col-sm-6" id="imagesCol">
+                        <img src="{{projectChosen.code1}}" alt="" id="projectImg"> 
+                    </div>
+                </div>
+                <div class="row text-center" id="screenshotRow2">                    
+                    <div class="col-sm-6" id="imagesCol">
+                        <img src="{{projectChosen.code2}}" alt="" id="projectImg"> 
+                    </div>
+                    <div class="col-sm-6 justify-content-center align-self-center" id="imagesCol">
+                        {{projectChosen.code2Description}}
+                    </div>
+                </div>
+                <div class="row text-center" id="screenshotRow">                    
+                    <div class="col-sm-6 justify-content-center align-self-center" id="imagesCol">
+                        {{projectChosen.code3Description}}
+                    </div>
+                    <div class="col-sm-6" id="imagesCol">
+                        <img src="{{projectChosen.code3}}" alt="" id="projectImg"> 
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+</div>
+</div>

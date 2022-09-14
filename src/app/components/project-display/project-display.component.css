@@ -1,0 +1,112 @@
+#pageBody {
+    font-family: 'Roboto Mono', monospace !important;
+    color: #000;
+}
+
+.display {
+    font-family: 'Roboto Mono', monospace !important;
+    color: #fff;
+    font-weight: bold;
+    background-color: #58595b;
+}
+
+#projectDisplayTitle {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: left;
+}
+
+#titleRow {
+    padding: 0%;
+}
+
+
+#pillsContainer {
+    border: 2px solid red;
+    min-height: 400px;
+    background-color: grey;
+    padding: 10px;
+}
+
+#projectImg {
+    width: 80%;
+    height: 100%;
+}
+
+#frameworkLogo {
+    height: 75px;
+    width: 75px;
+    display: inline-block;
+}
+
+#frameworkDiv {
+    margin-right: 35px;
+}
+
+@media screen and (max-width: 575px) {
+    #projectDisplayTitle {
+        padding-top: 0;
+        padding-bottom: 0;
+        text-align: center;
+    }
+    #externalLinksBtn {
+        margin-bottom: 3%;
+    }
+    #screenshotRow {
+        margin-bottom: 7% !important;
+    }
+    #screenshotRow2 {
+        margin-bottom: 7% !important;
+        flex-direction: column-reverse;
+    }
+    #projectImg {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+#descriptionDiv {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+
+button {
+    border-radius: 12px;
+    padding: 5px;
+    border: none;
+    color: #000;
+    background-color: #f95d97;
+}
+
+a {
+    border-radius: 12px;
+    padding: 5px;
+    border: none;
+    color: #fff;
+    background-color: #f95d97;
+    text-decoration: none;
+}
+
+.nav-pills .nav-link.active { 
+    background-color: #56aebd;
+}
+
+.nav-pills>li+li {
+    margin-left: 10px; 
+} 
+
+#screenshotRow {
+    margin-bottom: 1%;
+    display:flex;
+}
+
+#screenshotRow2 {
+    margin-bottom: 1%;
+    display:flex;
+}
+
+#imagesCol {
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
