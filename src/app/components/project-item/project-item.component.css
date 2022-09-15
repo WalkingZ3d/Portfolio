@@ -40,10 +40,11 @@ button {
 
 #liveBtn {
     padding-left: 0px;
+    padding-right: 0px;
 }
 
 #stamp {
-    width: 75%;
+    width: 100%;
     height: 100%;
 }
 
