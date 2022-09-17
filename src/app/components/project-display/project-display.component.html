@@ -17,7 +17,8 @@
 </div>
 
 <div class="container">
-    <div class="row text-center" id="linksRow">
+
+    <div *ngIf="projectChosen.url" class="row text-center" id="linksRow">
         <div class="col-sm-6">
             <button id="externalLinksBtn"><a href="{{projectChosen.url}}" target="_blank">Live Site</a></button>
         </div>
@@ -25,6 +26,13 @@
             <button id="externalLinksBtn"><a href="{{projectChosen.GitHub}}" target="_blank">GitHub</a></button> 
         </div>
     </div>
+
+    <div *ngIf="!projectChosen.url" class="row text-center" id="linksRow">
+        <div class="col-sm-12">
+            <button id="externalLinksBtn"><a href="{{projectChosen.GitHub}}" target="_blank">GitHub</a></button> 
+        </div>
+    </div>
+
 </div>
 
 
@@ -68,6 +76,14 @@
                         {{projectChosen.screenshot3Description}}
                     </div>
                 </div>
+                <div class="row text-center" id="screenshotRow2">
+                    <div class="col-sm-6 justify-content-center align-self-center" id="imagesColL">
+                        {{projectChosen.screenshot4Description}}
+                    </div>
+                    <div class="col-sm-6" id="imagesCol">
+                        <img src="{{projectChosen.screenshot4}}" alt="" id="projectImg"> 
+                    </div>
+                </div>
             </div>
             <div class="tab-pane fade" id="pills-code" role="tabpanel" aria-labelledby="pills-code-tab">
                 <div class="row text-center d-flex" id="screenshotRow2">
@@ -92,6 +108,22 @@
                     </div>
                     <div class="col-sm-6" id="imagesCol">
                         <img src="{{projectChosen.code3}}" alt="" id="projectImg"> 
+                    </div>
+                </div>
+                <div class="row text-center" id="screenshotRow">                    
+                    <div class="col-sm-6" id="imagesCol">
+                        <img src="{{projectChosen.code4}}" alt="" id="projectImg"> 
+                    </div>
+                    <div class="col-sm-6 justify-content-center align-self-center" id="imagesColR">
+                        {{projectChosen.code4Description}}
+                    </div>
+                </div>
+                <div class="row text-center" id="screenshotRow2">                    
+                    <div class="col-sm-6 justify-content-center align-self-center" id="imagesColL">
+                        {{projectChosen.code5Description}}
+                    </div>
+                    <div class="col-sm-6" id="imagesCol">
+                        <img src="{{projectChosen.code5}}" alt="" id="projectImg"> 
                     </div>
                 </div>
             </div>

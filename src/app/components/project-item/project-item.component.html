@@ -20,15 +20,22 @@
       
       <p class="card-text" id="projectSummary">{{project.summary}}</p>
       <br>
-      <div class="row text-center">
+
+      <div *ngIf="project.url" class="row text-center">
         <div class="col-sm-6">
             <button [routerLink]="['/projects', project.id]">See More</button>
         </div>
-        <div class="col-sm-6" id="liveBtn">            
+        <div class="col-sm-6" id="liveBtn">    
             <button><a href="{{project.url}}" target="_blank">Live Project</a></button>
         </div>
       </div>
-    
+
+      <div *ngIf="!project.url" class="row text-center">
+        <div class="col-sm-12">
+            <button [routerLink]="['/projects', project.id]">See More</button>
+        </div>
+      </div>
+
     </div>
 
   </div>

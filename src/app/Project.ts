@@ -15,10 +15,16 @@ export interface Project {
     screenshot2Description?: string;
     screenshot3?: string;
     screenshot3Description?: string;
+    screenshot4?: string;
+    screenshot4Description?: string;
     code1?: string;
     code1Description?: string;
     code2?: string;
     code2Description?: string;
     code3?: string;
     code3Description?: string;
+    code4?: string;
+    code4Description?: string;
+    code5?: string;
+    code5Description?: string;
 }
