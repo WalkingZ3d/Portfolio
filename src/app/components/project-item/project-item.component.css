@@ -3,7 +3,7 @@
     font-family: 'Roboto Mono', monospace !important;
     background-color: #99a3a9;
     color: #000;
-    height: 100%;
+    height: 1000px;
 }
 
 .card-title {
@@ -58,4 +58,8 @@ button {
 #projectSummary {
     font-weight: normal;
     padding-top: 2%;
+}
+
+#cardDiv {
+    height: 98%;
 }

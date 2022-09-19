@@ -32,9 +32,7 @@
             <button id="externalLinksBtn"><a href="{{projectChosen.GitHub}}" target="_blank">GitHub</a></button> 
         </div>
     </div>
-
 </div>
-
 
 
 <div class="pillsContainer" style="margin: 30px;">
@@ -52,7 +50,7 @@
           </ul>
           <div class="tab-content pt-2 pl-1" id="pills-tabContent">
             <div class="tab-pane fade show active" id="pills-images" role="tabpanel" aria-labelledby="pills-images-tab">
-                <div class="row text-center d-flex" id="screenshotRow">
+                <div *ngIf="projectChosen.screenshot1" class="row text-center d-flex" id="screenshotRow">
                     <div class="col-sm-6" id="imagesCol">
                         <img src="{{projectChosen.screenshot1}}" alt="" id="projectImg"> 
                     </div>
@@ -60,7 +58,7 @@
                         {{projectChosen.screenshot1Description}}
                     </div>
                 </div>
-                <div class="row text-center" id="screenshotRow2">
+                <div *ngIf="projectChosen.screenshot2" class="row text-center" id="screenshotRow2">
                     <div class="col-sm-6 justify-content-center align-self-center" id="imagesColL">
                         {{projectChosen.screenshot2Description}}
                     </div>
@@ -68,7 +66,7 @@
                         <img src="{{projectChosen.screenshot2}}" alt="" id="projectImg"> 
                     </div>
                 </div>
-                <div class="row text-center" id="screenshotRow">
+                <div *ngIf="projectChosen.screenshot3" class="row text-center" id="screenshotRow">
                     <div class="col-sm-6" id="imagesCol">
                         <img src="{{projectChosen.screenshot3}}" alt="" id="projectImg"> 
                     </div>
@@ -76,7 +74,7 @@
                         {{projectChosen.screenshot3Description}}
                     </div>
                 </div>
-                <div class="row text-center" id="screenshotRow2">
+                <div *ngIf="projectChosen.screenshot4" class="row text-center" id="screenshotRow2">
                     <div class="col-sm-6 justify-content-center align-self-center" id="imagesColL">
                         {{projectChosen.screenshot4Description}}
                     </div>
@@ -84,9 +82,25 @@
                         <img src="{{projectChosen.screenshot4}}" alt="" id="projectImg"> 
                     </div>
                 </div>
+                <div *ngIf="projectChosen.screenshot5" class="row text-center" id="screenshotRow">
+                    <div class="col-sm-6" id="imagesCol">
+                        <img src="{{projectChosen.screenshot5}}" alt="" id="projectImg"> 
+                    </div>
+                    <div class="col-sm-6 justify-content-center align-self-center" id="imagesColR">
+                        {{projectChosen.screenshot5Description}}
+                    </div>
+                </div>
+                <div *ngIf="projectChosen.screenshot6" class="row text-center" id="screenshotRow2">
+                    <div class="col-sm-6 justify-content-center align-self-center" id="imagesColL">
+                        {{projectChosen.screenshot6Description}}
+                    </div>
+                    <div class="col-sm-6" id="imagesCol">
+                        <img src="{{projectChosen.screenshot6}}" alt="" id="projectImg"> 
+                    </div>
+                </div>
             </div>
             <div class="tab-pane fade" id="pills-code" role="tabpanel" aria-labelledby="pills-code-tab">
-                <div class="row text-center d-flex" id="screenshotRow2">
+                <div *ngIf="projectChosen.code1" class="row text-center d-flex" id="screenshotRow2">
                     <div class="col-sm-6 justify-content-center align-self-center" id="imagesColL">
                         {{projectChosen.code1Description}}
                     </div>
@@ -94,7 +108,7 @@
                         <img src="{{projectChosen.code1}}" alt="" id="projectImg"> 
                     </div>
                 </div>
-                <div class="row text-center" id="screenshotRow">                    
+                <div *ngIf="projectChosen.code2" class="row text-center" id="screenshotRow">                    
                     <div class="col-sm-6" id="imagesCol">
                         <img src="{{projectChosen.code2}}" alt="" id="projectImg"> 
                     </div>
@@ -102,7 +116,7 @@
                         {{projectChosen.code2Description}}
                     </div>
                 </div>
-                <div class="row text-center" id="screenshotRow2">                    
+                <div *ngIf="projectChosen.code3" class="row text-center" id="screenshotRow2">                    
                     <div class="col-sm-6 justify-content-center align-self-center" id="imagesColL">
                         {{projectChosen.code3Description}}
                     </div>
@@ -110,7 +124,7 @@
                         <img src="{{projectChosen.code3}}" alt="" id="projectImg"> 
                     </div>
                 </div>
-                <div class="row text-center" id="screenshotRow">                    
+                <div *ngIf="projectChosen.code4" class="row text-center" id="screenshotRow">                    
                     <div class="col-sm-6" id="imagesCol">
                         <img src="{{projectChosen.code4}}" alt="" id="projectImg"> 
                     </div>
@@ -118,12 +132,52 @@
                         {{projectChosen.code4Description}}
                     </div>
                 </div>
-                <div class="row text-center" id="screenshotRow2">                    
+                <div *ngIf="projectChosen.code5" class="row text-center" id="screenshotRow2">                    
                     <div class="col-sm-6 justify-content-center align-self-center" id="imagesColL">
                         {{projectChosen.code5Description}}
                     </div>
                     <div class="col-sm-6" id="imagesCol">
                         <img src="{{projectChosen.code5}}" alt="" id="projectImg"> 
+                    </div>
+                </div>
+                <div *ngIf="projectChosen.code6" class="row text-center" id="screenshotRow">                    
+                    <div class="col-sm-6" id="imagesCol">
+                        <img src="{{projectChosen.code6}}" alt="" id="projectImg"> 
+                    </div>
+                    <div class="col-sm-6 justify-content-center align-self-center" id="imagesColR">
+                        {{projectChosen.code6Description}}
+                    </div>
+                </div>
+                <div *ngIf="projectChosen.code7" class="row text-center" id="screenshotRow2">                    
+                    <div class="col-sm-6 justify-content-center align-self-center" id="imagesColL">
+                        {{projectChosen.code7Description}}
+                    </div>
+                    <div class="col-sm-6" id="imagesCol">
+                        <img src="{{projectChosen.code7}}" alt="" id="projectImg"> 
+                    </div>
+                </div>
+                <div *ngIf="projectChosen.code8" class="row text-center" id="screenshotRow">                    
+                    <div class="col-sm-6" id="imagesCol">
+                        <img src="{{projectChosen.code8}}" alt="" id="projectImg"> 
+                    </div>
+                    <div class="col-sm-6 justify-content-center align-self-center" id="imagesColR">
+                        {{projectChosen.code8Description}}
+                    </div>
+                </div>
+                <div *ngIf="projectChosen.code9" class="row text-center" id="screenshotRow2">                    
+                    <div class="col-sm-6 justify-content-center align-self-center" id="imagesColL">
+                        {{projectChosen.code9Description}}
+                    </div>
+                    <div class="col-sm-6" id="imagesCol">
+                        <img src="{{projectChosen.code9}}" alt="" id="projectImg"> 
+                    </div>
+                </div>
+                <div *ngIf="projectChosen.code10" class="row text-center" id="screenshotRow">                    
+                    <div class="col-sm-6" id="imagesCol">
+                        <img src="{{projectChosen.code10}}" alt="" id="projectImg"> 
+                    </div>
+                    <div class="col-sm-6 justify-content-center align-self-center" id="imagesColR">
+                        {{projectChosen.code10Description}}
                     </div>
                 </div>
             </div>
