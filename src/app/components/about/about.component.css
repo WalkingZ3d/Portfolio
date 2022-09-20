@@ -21,3 +21,8 @@ img {
     padding-left: 10%;
     font-family: 'Roboto Mono', monospace !important;
 }
+
+#repoGitHub {
+    text-decoration: none;
+    color: #56aebd;
+}

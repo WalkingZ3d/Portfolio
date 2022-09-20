@@ -67,4 +67,18 @@ export interface Project {
     code17Description?: string;
     code18?: string;
     code18Description?: string;
+    code19?: string;
+    code19Description?: string;
+    code20?: string;
+    code20Description?: string;
+    code21?: string;
+    code21Description?: string;
+    code22?: string;
+    code22Description?: string;
+    code23?: string;
+    code23Description?: string;
+    code24?: string;
+    code24Description?: string;
+    code25?: string;
+    code25Description?: string;
 }
