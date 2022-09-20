@@ -21,6 +21,16 @@ export interface Project {
     screenshot5Description?: string;
     screenshot6?: string;
     screenshot6Description?: string;
+    screenshot7?: string;
+    screenshot7Description?: string;
+    screenshot8?: string;
+    screenshot8Description?: string;
+    screenshot9?: string;
+    screenshot9Description?: string;
+    screenshot10?: string;
+    screenshot10Description?: string;
+    screenshot11?: string;
+    screenshot11Description?: string;
     code1?: string;
     code1Description?: string;
     code2?: string;
@@ -41,4 +51,20 @@ export interface Project {
     code9Description?: string;
     code10?: string;
     code10Description?: string;
+    code11?: string;
+    code11Description?: string;
+    code12?: string;
+    code12Description?: string;
+    code13?: string;
+    code13Description?: string;
+    code14?: string;
+    code14Description?: string;
+    code15?: string;
+    code15Description?: string;
+    code16?: string;
+    code16Description?: string;
+    code17?: string;
+    code17Description?: string;
+    code18?: string;
+    code18Description?: string;
 }
