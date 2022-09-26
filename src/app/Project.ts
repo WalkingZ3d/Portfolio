@@ -9,6 +9,8 @@ export interface Project {
     picture?: string;
     stamp?: string;
     framework?: string;
+    screenshot?: Array<Array<string>>;
+    code?: Array<Array<string>>;
     screenshot1?: string;
     screenshot1Description?: string;
     screenshot2?: string;

@@ -17,10 +17,7 @@
 }
 
 @media screen and (max-width: 765px) {
-   .navMsg {
-    display: none;
-   }
    .navLink a{
-    display: inline;
-}
+        display: inline;
+    }
 }

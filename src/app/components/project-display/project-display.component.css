@@ -57,7 +57,7 @@
     }
     #screenshotRow2 {
         margin-bottom: 7% !important;
-        flex-direction: column-reverse;
+        flex-direction: column-reverse !important;
     }
     #projectImg {
         width: 100%;

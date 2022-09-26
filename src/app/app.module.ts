@@ -34,7 +34,7 @@ const appRoutes: Routes = [
     ProjectItemComponent,
     ProjectDisplayComponent,
     PageNotFoundComponent,
-    NavLinksComponent
+    NavLinksComponent,
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(appRoutes)
