@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Project} from '../../Project';
+import {PROJECTS} from '../../projectsList';
 
 @Component({
   selector: 'app-header',
@@ -7,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   title: string = 'Portfolio'
+  projects: Project[] = PROJECTS;
 
   constructor() { }
 

@@ -12,6 +12,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ProjectItemComponent } from './components/project-item/project-item.component';
 import { ProjectDisplayComponent } from './components/project-display/project-display.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { NavLinksComponent } from './components/nav-links/nav-links.component';
 
 const appRoutes: Routes = [
   {path: '', component: OverlayComponent},
@@ -32,7 +33,8 @@ const appRoutes: Routes = [
     ProjectsComponent,
     ProjectItemComponent,
     ProjectDisplayComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    NavLinksComponent
   ],
   imports: [
     BrowserModule, RouterModule.forRoot(appRoutes)

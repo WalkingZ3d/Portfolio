@@ -42,30 +42,9 @@
     font-weight: bold;
     font-family: 'Roboto Mono', monospace !important;
 }
-    
-.navLink {
-    padding-left: 10px;
-}
-
-.navLink a{
-    font-size: 22px;
-    font-weight: bold;
-    font-family: 'Roboto Mono', monospace !important;
-    color: #000;
-    text-decoration: none;
-    display: none;
-}
-
-.navLink a:hover{
-    color: #fff;
-    text-decoration: none;
-}
 
 @media screen and (max-width: 765px) {
    .navMsg {
     display: none;
    }
-   .navLink a{
-    display: inline;
-}
 }

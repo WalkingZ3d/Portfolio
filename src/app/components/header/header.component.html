@@ -7,9 +7,10 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
            <li class="navMsg">Dan Willis Portfolio</li>
-           <li class="navLink"><a href="/projects/0">Calorie Tracker</a></li>
+           <!-- <li class="navLink"><a href="/projects/0">Calorie Tracker</a></li>
            <li class="navLink"><a href="/projects/1">Jigsaw Helper</a></li>
-           <li class="navLink"><a href="/projects/2">GitHub Searcher</a></li>
+           <li class="navLink"><a href="/projects/2">GitHub Searcher</a></li> -->
+          <app-nav-links *ngFor="let project of projects" [project]="project"></app-nav-links>
         </ul>
     </div>
 </nav>
